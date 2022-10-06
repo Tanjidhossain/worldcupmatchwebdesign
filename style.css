@@ -1,0 +1,334 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.main-container{
+   width: 100%;
+}
+
+
+
+.main-section{
+      background-color: white;
+  
+    padding-left: 10%; 
+    padding-right: 10%; 
+    margin-top: 11px;
+    border-radius: 10px;
+}
+
+
+
+
+
+ /* hero section style  */
+
+ .single-player-section{
+    margin-top: 20px;
+    background-color: black;
+    padding-left: 10%; 
+    padding-right: 10%; 
+    border-radius: 10px;
+    color: white;
+ }
+
+ .single-player{
+    display: flex;
+ }
+
+ .single-player-headline{
+    font-size: 50px;
+ }
+ 
+ .single-player-head p{
+    font-weight: bold;
+ }
+
+ .single-player-head button {
+    background-color: rgb(175, 12, 12);
+    border: none;
+    padding: 10px 20px;
+    color: wheat;
+    border-radius: 3px;
+ }
+ .single-player-head button span{ font-weight: 600;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.single-player-head button a{
+   text-decoration: none;
+   color: azure;
+}
+ 
+ 
+ .single-player-image img{
+    width: 400px;
+    padding-top: 29px;
+    margin-bottom: -6px;
+ }
+
+
+ 
+
+ /* news section design */
+
+
+ .news{
+      margin-top: 100px;
+      margin-bottom: 100px;
+      
+ }
+
+ .news-info{
+ 
+   display: grid;
+   grid-template-columns: repeat(3,1fr) ;
+   
+
+
+ }
+
+.news-summary{
+    border-radius: 4px;
+    background-color: black;
+     width: 200px; 
+    height: 150px; 
+    color: purple;
+    text-align: center;
+    font-size: 15px;
+
+ }
+.news-summary .upcomingmatch{
+   background-color: white;
+   margin: 13px 20px;
+   color: black;
+   font-weight: 600;
+ 
+   height: 30px;
+
+      
+ }
+
+ .news-summary .upcomingmatch p{
+         
+ }
+
+.news-summary .allgroup{
+   background-color: white;
+   margin: 13px 20px;
+   color: black;
+   font-weight: 600;
+   border-radius: 4px;
+
+ }
+.news-summary .blog{
+   background-color: red;
+   margin: 13px 20px;
+   font-weight: 600;
+   border-radius: 4px;
+
+ }
+.news-summary .blog p{
+  
+   color: white;
+  
+
+ }
+
+.news-summary  a{
+   text-decoration: none;
+   color: black;
+}
+
+
+
+
+
+.news-carts{
+   
+   margin-left: 20px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+
+ }
+ .grid-container{
+ display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 31px;
+ 
+
+
+ }
+
+.news-cart{
+ 
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ padding: 3px 3px;
+ border-radius: 12px;
+
+}
+
+.news-cart-banner img{
+   width: 220px;
+    border-radius: 12px;
+
+
+}
+
+
+.news-cart-box{
+
+   
+}
+
+.news-cart-detail {
+
+
+
+}
+
+
+.news-cart-title{
+   border: 2px solid black;
+   padding: 6px 11px ;
+   background-color: white;
+   font-weight: 600;
+   border-radius: 3px;
+   cursor: no-drop;
+
+
+}
+
+
+
+
+.news-cart-para{
+  
+   font-weight: 700;
+
+}
+
+
+.news-cart-info{
+
+   
+}
+.news-cart-info i{
+padding-right: 6px;
+
+}
+.news-cart-info span{ 
+ 
+   padding-left: 2px;
+
+}
+
+
+
+
+/* footer design */
+
+
+.footerpart {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  height: 330px;
+  width: 100%;
+
+
+}
+
+.footer-goal {
+   text-align: center;
+   padding: 50px;
+
+
+}
+hr{
+ border: 1px solid rgba(124, 116, 116, 0.329); 
+   
+
+}
+
+.footer-goal h2:hover {
+   color: blueviolet;
+   cursor: pointer;
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  transition: 1s ease-in-out;
+  
+
+}
+
+.hrsection {
+   width: 90%;
+   
+
+
+
+}
+
+.footer-info ul{
+   display: flex;
+  justify-content: space-evenly;
+ 
+
+
+}
+
+.footer-info li{
+   list-style-type: none;
+
+}
+.footer-info li a{
+ text-decoration: none;
+ color: grey;
+
+}
+
+.footer-info ul li a:hover{
+   color: white;
+   
+}
+
+ .footer-socialmedia-icons{
+     display: grid;
+     grid-template-columns:  40px 40px  40px 40px ;
+     justify-content: center;
+     
+ }
+
+
+.footer-socialmedia-icons a{
+   text-decoration: none;
+
+}
+
+.footer-socialmedia-icons a:hover{
+   font-size: 30px;
+   transition: 1s ease-in-out;
+   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
